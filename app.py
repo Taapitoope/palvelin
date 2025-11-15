@@ -9,7 +9,7 @@ try:
     # Yhdistä MySQL-tietokantaan
     conn = mysql.connector.connect(
         host="localhost",
-        user="veikko",         # vaihda tarvittaessa
+        user="******",         # vaihda tarvittaessa
         password="*******",  # vaihda tarvittaessa
         database="exampledb"   # vaihda tarvittaessa
     )
