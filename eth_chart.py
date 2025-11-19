@@ -7,6 +7,9 @@ import altair as alt
 # --- Otsikko ---
 st.title("Ethereum-hintakehitys (EUR)")
 
+# --- Lisätieto päivityksestä ---
+st.caption("ℹ️ Tietokantaa päivitetään cron-ajastuksella 10 minuutin välein.")
+
 # --- MySQL-yhteys ---
 try:
     conn = mysql.connector.connect(
