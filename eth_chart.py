@@ -1,3 +1,9 @@
+import streamlit as st
+import mysql.connector
+import pandas as pd
+import altair as alt
+
+
 # --- Otsikko ---
 st.title("Ethereum-hintakehitys (EUR)")
 
